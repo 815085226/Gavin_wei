@@ -22,5 +22,3 @@ git log
 #回退到上一个版本
 
 $ git reset --hard HEAD^ 
-
-#
