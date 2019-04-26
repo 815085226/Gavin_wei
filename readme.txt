@@ -1,4 +1,4 @@
-#创建本地库
+﻿#创建本地库
 git init 
 
 #把文件添加到仓库
@@ -23,4 +23,9 @@ git log
 
 $ git reset --hard HEAD^ 
 
-4444444444444
+git remote add origin git@github.com:815085226/Gavin_wei.git 
+$ git add .     #（添加需要提交的内容）
+$ git commit -m "填写备注提交信息更新内容"
+$ git push -u origin master
+
+git push origin master
